@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>vilma_framework</name>
+  <version>0.0.1</version>
+  <description>This stack contains all software necessary to build VILMA systems using both Orocos and ROS infrastructures with supervision instrumentations</description>
+  <maintainer email="cfpperche@gmail.com">LMA-UNICAMP Laboratory</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">http://www.fem.unicamp.br/~lma/</url>
+  <url type="bugtracker">https://github.com/lma-unicamp/vilma-project/issues</url>
+
+  <author>Carlos F. de P. Perché</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>vilma_core</run_depend>
+  <run_depend>vilma_env_toolchain</run_depend>
+  <run_depend>vilma_task_manager</run_depend>
+  <run_depend>vilma_hartbeat</run_depend>
+  
+  <export>
+  	<metapackage/>
+  </export>
+</package>
