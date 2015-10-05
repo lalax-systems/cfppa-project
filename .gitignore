@@ -1,0 +1,9 @@
+# VILMA Framework
+
+#### Packages
+* **vilma_env_toolchain:** environment toolchain package to provide tools to generate a new project from template and other stuff.
+* **vilma_task_manager:** base class to the envent driven process.
+* **vilma_hartbeat:** base class to the periodic process. 
+
+#### Documentation
+For a complete installation of the system workspace see [wiki](https://github.com/lma-unicamp/vilma-framework/wiki)
